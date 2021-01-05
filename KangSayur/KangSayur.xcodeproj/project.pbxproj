@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050E480825A434D1003C1C1B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E480725A434D1003C1C1B /* SearchBar.swift */; };
+		050E481025A4365D003C1C1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E480F25A4365D003C1C1B /* HomeView.swift */; };
+		052B330525A3316E005E549D /* KangSayurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B330425A3316E005E549D /* KangSayurApp.swift */; };
+		052B330725A3316E005E549D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B330625A3316E005E549D /* ContentView.swift */; };
+		052B330925A3316F005E549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052B330825A3316F005E549D /* Assets.xcassets */; };
+		052B330C25A3316F005E549D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052B330B25A3316F005E549D /* Preview Assets.xcassets */; };
+		052B330E25A3316F005E549D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B330D25A3316F005E549D /* Persistence.swift */; };
+		052B331125A3316F005E549D /* KangSayur.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052B330F25A3316F005E549D /* KangSayur.xcdatamodeld */; };
+		052B331C25A3316F005E549D /* KangSayurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B331B25A3316F005E549D /* KangSayurTests.swift */; };
+		052B332725A3316F005E549D /* KangSayurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B332625A3316F005E549D /* KangSayurUITests.swift */; };
+		052B333E25A333FC005E549D /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B333D25A333FC005E549D /* SignUp.swift */; };
+		052B334325A33409005E549D /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B334225A33409005E549D /* SignIn.swift */; };
+		052B335C25A34402005E549D /* SignUp-SetelAlamat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B335B25A34402005E549D /* SignUp-SetelAlamat.swift */; };
+		052B336225A34A95005E549D /* Akun View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B336125A34A95005E549D /* Akun View.swift */; };
+		052B336A25A34E29005E549D /* AccountChevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B336925A34E29005E549D /* AccountChevron.swift */; };
+		052B337025A35406005E549D /* DataDiriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B336F25A35406005E549D /* DataDiriView.swift */; };
+		052B337E25A37815005E549D /* UbahEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B337D25A37815005E549D /* UbahEmailView.swift */; };
+		052B338625A379CA005E549D /* AkunBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B338525A379CA005E549D /* AkunBottom.swift */; };
+		052B339525A37C3C005E549D /* UbahKataSandiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B339425A37C3C005E549D /* UbahKataSandiView.swift */; };
+		052B339E25A37EF8005E549D /* DataAlamatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B339D25A37EF8005E549D /* DataAlamatView.swift */; };
+		052B33A725A38174005E549D /* RiwayatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B33A625A38174005E549D /* RiwayatView.swift */; };
+		052B33AF25A3859B005E549D /* RiwayatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B33AE25A3859B005E549D /* RiwayatRow.swift */; };
+		052B33B425A38852005E549D /* RiwayatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B33B325A38852005E549D /* RiwayatDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052B331825A3316F005E549D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052B32F925A3316E005E549D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052B330025A3316E005E549D;
+			remoteInfo = KangSayur;
+		};
+		052B332325A3316F005E549D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052B32F925A3316E005E549D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052B330025A3316E005E549D;
+			remoteInfo = KangSayur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050E480725A434D1003C1C1B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		050E480F25A4365D003C1C1B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		052B330125A3316E005E549D /* KangSayur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KangSayur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052B330425A3316E005E549D /* KangSayurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangSayurApp.swift; sourceTree = "<group>"; };
+		052B330625A3316E005E549D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		052B330825A3316F005E549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052B330B25A3316F005E549D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		052B330D25A3316F005E549D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		052B331025A3316F005E549D /* KangSayur.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KangSayur.xcdatamodel; sourceTree = "<group>"; };
+		052B331225A3316F005E549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052B331725A3316F005E549D /* KangSayurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KangSayurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052B331B25A3316F005E549D /* KangSayurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangSayurTests.swift; sourceTree = "<group>"; };
+		052B331D25A3316F005E549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052B332225A3316F005E549D /* KangSayurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KangSayurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052B332625A3316F005E549D /* KangSayurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangSayurUITests.swift; sourceTree = "<group>"; };
+		052B332825A3316F005E549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052B333D25A333FC005E549D /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		052B334225A33409005E549D /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		052B335B25A34402005E549D /* SignUp-SetelAlamat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp-SetelAlamat.swift"; sourceTree = "<group>"; };
+		052B336125A34A95005E549D /* Akun View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Akun View.swift"; sourceTree = "<group>"; };
+		052B336925A34E29005E549D /* AccountChevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountChevron.swift; sourceTree = "<group>"; };
+		052B336F25A35406005E549D /* DataDiriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDiriView.swift; sourceTree = "<group>"; };
+		052B337D25A37815005E549D /* UbahEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbahEmailView.swift; sourceTree = "<group>"; };
+		052B338525A379CA005E549D /* AkunBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkunBottom.swift; sourceTree = "<group>"; };
+		052B339425A37C3C005E549D /* UbahKataSandiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbahKataSandiView.swift; sourceTree = "<group>"; };
+		052B339D25A37EF8005E549D /* DataAlamatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAlamatView.swift; sourceTree = "<group>"; };
+		052B33A625A38174005E549D /* RiwayatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiwayatView.swift; sourceTree = "<group>"; };
+		052B33AE25A3859B005E549D /* RiwayatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiwayatRow.swift; sourceTree = "<group>"; };
+		052B33B325A38852005E549D /* RiwayatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiwayatDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052B32FE25A3316E005E549D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B331425A3316F005E549D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B331F25A3316F005E549D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050E480325A4343E003C1C1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				050E480725A434D1003C1C1B /* SearchBar.swift */,
+				050E480F25A4365D003C1C1B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		052B32F825A3316E005E549D = {
+			isa = PBXGroup;
+			children = (
+				052B330325A3316E005E549D /* KangSayur */,
+				052B331A25A3316F005E549D /* KangSayurTests */,
+				052B332525A3316F005E549D /* KangSayurUITests */,
+				052B330225A3316E005E549D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052B330225A3316E005E549D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052B330125A3316E005E549D /* KangSayur.app */,
+				052B331725A3316F005E549D /* KangSayurTests.xctest */,
+				052B332225A3316F005E549D /* KangSayurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052B330325A3316E005E549D /* KangSayur */ = {
+			isa = PBXGroup;
+			children = (
+				052B333725A33347005E549D /* Auth */,
+				052B336025A34A58005E549D /* Akun */,
+				050E480325A4343E003C1C1B /* Home */,
+				052B330425A3316E005E549D /* KangSayurApp.swift */,
+				052B330625A3316E005E549D /* ContentView.swift */,
+				052B330825A3316F005E549D /* Assets.xcassets */,
+				052B330D25A3316F005E549D /* Persistence.swift */,
+				052B331225A3316F005E549D /* Info.plist */,
+				052B330F25A3316F005E549D /* KangSayur.xcdatamodeld */,
+				052B330A25A3316F005E549D /* Preview Content */,
+			);
+			path = KangSayur;
+			sourceTree = "<group>";
+		};
+		052B330A25A3316F005E549D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				052B330B25A3316F005E549D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		052B331A25A3316F005E549D /* KangSayurTests */ = {
+			isa = PBXGroup;
+			children = (
+				052B331B25A3316F005E549D /* KangSayurTests.swift */,
+				052B331D25A3316F005E549D /* Info.plist */,
+			);
+			path = KangSayurTests;
+			sourceTree = "<group>";
+		};
+		052B332525A3316F005E549D /* KangSayurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				052B332625A3316F005E549D /* KangSayurUITests.swift */,
+				052B332825A3316F005E549D /* Info.plist */,
+			);
+			path = KangSayurUITests;
+			sourceTree = "<group>";
+		};
+		052B333725A33347005E549D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				052B333925A3336A005E549D /* Sign up */,
+				052B333825A3335D005E549D /* Sign in */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		052B333825A3335D005E549D /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+				052B334225A33409005E549D /* SignIn.swift */,
+			);
+			path = "Sign in";
+			sourceTree = "<group>";
+		};
+		052B333925A3336A005E549D /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				052B333D25A333FC005E549D /* SignUp.swift */,
+				052B335B25A34402005E549D /* SignUp-SetelAlamat.swift */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+		052B336025A34A58005E549D /* Akun */ = {
+			isa = PBXGroup;
+			children = (
+				052B336E25A3537E005E549D /* Data Diri */,
+				052B339C25A37ECD005E549D /* DataAlamat */,
+				052B337C25A3779C005E549D /* UbahEmail */,
+				052B339325A37B43005E549D /* UbahKataSandi */,
+				052B33A525A3811D005E549D /* Riwayat */,
+				052B336125A34A95005E549D /* Akun View.swift */,
+				052B336925A34E29005E549D /* AccountChevron.swift */,
+			);
+			path = Akun;
+			sourceTree = "<group>";
+		};
+		052B336E25A3537E005E549D /* Data Diri */ = {
+			isa = PBXGroup;
+			children = (
+				052B336F25A35406005E549D /* DataDiriView.swift */,
+				052B338525A379CA005E549D /* AkunBottom.swift */,
+			);
+			path = "Data Diri";
+			sourceTree = "<group>";
+		};
+		052B337C25A3779C005E549D /* UbahEmail */ = {
+			isa = PBXGroup;
+			children = (
+				052B337D25A37815005E549D /* UbahEmailView.swift */,
+			);
+			path = UbahEmail;
+			sourceTree = "<group>";
+		};
+		052B339325A37B43005E549D /* UbahKataSandi */ = {
+			isa = PBXGroup;
+			children = (
+				052B339425A37C3C005E549D /* UbahKataSandiView.swift */,
+			);
+			path = UbahKataSandi;
+			sourceTree = "<group>";
+		};
+		052B339C25A37ECD005E549D /* DataAlamat */ = {
+			isa = PBXGroup;
+			children = (
+				052B339D25A37EF8005E549D /* DataAlamatView.swift */,
+			);
+			path = DataAlamat;
+			sourceTree = "<group>";
+		};
+		052B33A525A3811D005E549D /* Riwayat */ = {
+			isa = PBXGroup;
+			children = (
+				052B33A625A38174005E549D /* RiwayatView.swift */,
+				052B33AE25A3859B005E549D /* RiwayatRow.swift */,
+				052B33B325A38852005E549D /* RiwayatDetailView.swift */,
+			);
+			path = Riwayat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052B330025A3316E005E549D /* KangSayur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052B332B25A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayur" */;
+			buildPhases = (
+				052B32FD25A3316E005E549D /* Sources */,
+				052B32FE25A3316E005E549D /* Frameworks */,
+				052B32FF25A3316E005E549D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KangSayur;
+			productName = KangSayur;
+			productReference = 052B330125A3316E005E549D /* KangSayur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052B331625A3316F005E549D /* KangSayurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052B332E25A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayurTests" */;
+			buildPhases = (
+				052B331325A3316F005E549D /* Sources */,
+				052B331425A3316F005E549D /* Frameworks */,
+				052B331525A3316F005E549D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052B331925A3316F005E549D /* PBXTargetDependency */,
+			);
+			name = KangSayurTests;
+			productName = KangSayurTests;
+			productReference = 052B331725A3316F005E549D /* KangSayurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052B332125A3316F005E549D /* KangSayurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052B333125A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayurUITests" */;
+			buildPhases = (
+				052B331E25A3316F005E549D /* Sources */,
+				052B331F25A3316F005E549D /* Frameworks */,
+				052B332025A3316F005E549D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052B332425A3316F005E549D /* PBXTargetDependency */,
+			);
+			name = KangSayurUITests;
+			productName = KangSayurUITests;
+			productReference = 052B332225A3316F005E549D /* KangSayurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052B32F925A3316E005E549D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					052B330025A3316E005E549D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					052B331625A3316F005E549D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 052B330025A3316E005E549D;
+					};
+					052B332125A3316F005E549D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 052B330025A3316E005E549D;
+					};
+				};
+			};
+			buildConfigurationList = 052B32FC25A3316E005E549D /* Build configuration list for PBXProject "KangSayur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052B32F825A3316E005E549D;
+			productRefGroup = 052B330225A3316E005E549D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052B330025A3316E005E549D /* KangSayur */,
+				052B331625A3316F005E549D /* KangSayurTests */,
+				052B332125A3316F005E549D /* KangSayurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052B32FF25A3316E005E549D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052B330C25A3316F005E549D /* Preview Assets.xcassets in Resources */,
+				052B330925A3316F005E549D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B331525A3316F005E549D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B332025A3316F005E549D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052B32FD25A3316E005E549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052B330E25A3316F005E549D /* Persistence.swift in Sources */,
+				052B33B425A38852005E549D /* RiwayatDetailView.swift in Sources */,
+				052B338625A379CA005E549D /* AkunBottom.swift in Sources */,
+				052B334325A33409005E549D /* SignIn.swift in Sources */,
+				052B330725A3316E005E549D /* ContentView.swift in Sources */,
+				050E480825A434D1003C1C1B /* SearchBar.swift in Sources */,
+				052B33AF25A3859B005E549D /* RiwayatRow.swift in Sources */,
+				052B339525A37C3C005E549D /* UbahKataSandiView.swift in Sources */,
+				052B330525A3316E005E549D /* KangSayurApp.swift in Sources */,
+				052B336225A34A95005E549D /* Akun View.swift in Sources */,
+				052B337E25A37815005E549D /* UbahEmailView.swift in Sources */,
+				052B336A25A34E29005E549D /* AccountChevron.swift in Sources */,
+				052B335C25A34402005E549D /* SignUp-SetelAlamat.swift in Sources */,
+				052B339E25A37EF8005E549D /* DataAlamatView.swift in Sources */,
+				052B331125A3316F005E549D /* KangSayur.xcdatamodeld in Sources */,
+				052B33A725A38174005E549D /* RiwayatView.swift in Sources */,
+				052B337025A35406005E549D /* DataDiriView.swift in Sources */,
+				052B333E25A333FC005E549D /* SignUp.swift in Sources */,
+				050E481025A4365D003C1C1B /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B331325A3316F005E549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052B331C25A3316F005E549D /* KangSayurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052B331E25A3316F005E549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052B332725A3316F005E549D /* KangSayurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052B331925A3316F005E549D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052B330025A3316E005E549D /* KangSayur */;
+			targetProxy = 052B331825A3316F005E549D /* PBXContainerItemProxy */;
+		};
+		052B332425A3316F005E549D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052B330025A3316E005E549D /* KangSayur */;
+			targetProxy = 052B332325A3316F005E549D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052B332925A3316F005E549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		052B332A25A3316F005E549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052B332C25A3316F005E549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KangSayur/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KangSayur/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052B332D25A3316F005E549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KangSayur/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KangSayur/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		052B332F25A3316F005E549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KangSayurTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KangSayur.app/KangSayur";
+			};
+			name = Debug;
+		};
+		052B333025A3316F005E549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KangSayurTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KangSayur.app/KangSayur";
+			};
+			name = Release;
+		};
+		052B333225A3316F005E549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KangSayurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KangSayur;
+			};
+			name = Debug;
+		};
+		052B333325A3316F005E549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KangSayurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.KangSayurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KangSayur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052B32FC25A3316E005E549D /* Build configuration list for PBXProject "KangSayur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052B332925A3316F005E549D /* Debug */,
+				052B332A25A3316F005E549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052B332B25A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052B332C25A3316F005E549D /* Debug */,
+				052B332D25A3316F005E549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052B332E25A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052B332F25A3316F005E549D /* Debug */,
+				052B333025A3316F005E549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052B333125A3316F005E549D /* Build configuration list for PBXNativeTarget "KangSayurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052B333225A3316F005E549D /* Debug */,
+				052B333325A3316F005E549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		052B330F25A3316F005E549D /* KangSayur.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				052B331025A3316F005E549D /* KangSayur.xcdatamodel */,
+			);
+			currentVersion = 052B331025A3316F005E549D /* KangSayur.xcdatamodel */;
+			path = KangSayur.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 052B32F925A3316E005E549D /* Project object */;
+}
